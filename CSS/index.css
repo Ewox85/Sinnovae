@@ -1,0 +1,109 @@
+html{
+	margin: auto;
+	height: 100%;
+	background-color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.bandeau{
+    width:100.9%;
+    margin-bottom:-20px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+main{
+    color: white;
+    text-align: center;
+}
+
+/*/----NAV----/*/
+
+nav{
+    position: sticky;
+    top: 0px;
+    width: 100.9%;
+    margin-left: -10px;
+    background-color: #465B59;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: #465B59;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav a{
+    margin-left: -40px;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+/*/--------------/*/
+
+/*/----Méthode----/*/
+.main_methode{
+    border: black 3px solid;
+    background-color: #474747;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    color : white;
+    margin-top:50px;
+}
+
+table{
+    background-color: #333333;
+    border: rgb(31, 31, 31) 3px solid;
+}
+/*/---------------/*/
