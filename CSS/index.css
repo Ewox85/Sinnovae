@@ -102,8 +102,10 @@ nav > ul li:hover .sous{
     margin-top:50px;
 }
 
-table{
+.main_methode table,td,th{
     background-color: #333333;
     border: rgb(31, 31, 31) 3px solid;
+    text-align: center;
+    padding: 5px;
 }
 /*/---------------/*/
