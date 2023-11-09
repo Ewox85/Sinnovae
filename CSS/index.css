@@ -107,6 +107,7 @@ nav > ul li:hover .sous{
     border: rgb(31, 31, 31) 3px solid;
     text-align: center;
     padding: 5px;
+    border-collapse: collapse;
 }
 
 iframe{
