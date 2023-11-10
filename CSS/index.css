@@ -24,8 +24,10 @@ nav{
     position: sticky;
     top: 0px;
     width: 100.9%;
+    margin-top: -4px;
     margin-left: -10px;
     background-color: #465B59;
+    font-size: 20px;
 }
 
 nav ul{
@@ -97,9 +99,23 @@ nav > ul li:hover .sous{
     background-color: #474747;
     margin-left: 200px;
     margin-right: 200px;
-    text-align: center;
     color : white;
     margin-top:50px;
+}
+
+.main_methode h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.main_methode p{
+    font-size: 17px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main_methode h4{
+    text-decoration: underline;
 }
 
 .main_methode table,td,th{
@@ -112,5 +128,14 @@ nav > ul li:hover .sous{
 
 iframe{
     border: solid white 1px;
+}
+
+.main_methode h2{
+    border: 2px solid black;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: #465B59;
+    border-radius: 0px 30px 0px 30px;
+    padding: 5px;
 }
 /*/---------------/*/
