@@ -1,26 +1,26 @@
-html{
-	margin: auto;
-	height: 100%;
-	background-color: #333333;
-	font-family: Arial, Helvetica, sans-serif;
+html {
+    margin: auto;
+    height: 100%;
+    background-color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
 
-.bandeau{
-    width:100.9%;
-    margin-bottom:-20px;
+.bandeau {
+    width: 100.9%;
+    margin-bottom: -20px;
     margin-left: -10px;
     margin-top: -10px;
 }
 
-main{
+main {
     color: white;
     text-align: center;
 }
 
 /*/----NAV----/*/
 
-nav{
+nav {
     position: sticky;
     top: 0px;
     width: 100.9%;
@@ -30,24 +30,24 @@ nav{
     font-size: 20px;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
 }
 
-nav ul li{
+nav ul li {
     float: left;
     width: 25%;
     text-align: center;
     position: relative;
 }
 
-nav ul::after{
+nav ul::after {
     content: "";
     display: table;
     clear: both;
 }
 
-nav a{
+nav a {
     display: block;
     text-decoration: none;
     color: white;
@@ -56,11 +56,11 @@ nav a{
     font-weight: bold;
 }
 
-nav a:hover{
+nav a:hover {
     color: black;
 }
 
-.sous{
+.sous {
     display: none;
     box-shadow: 0px 1px 2px #CCC;
     background-color: #465B59;
@@ -68,62 +68,72 @@ nav a:hover{
     width: 100%;
     z-index: 1000;
 }
-nav a{
+
+nav a {
     margin-left: -40px;
 }
-nav > ul li:hover .sous{
+
+nav>ul li:hover .sous {
     display: block;
 }
-.sous li{
+
+.sous li {
     float: none;
     width: 100%;
     text-align: left;
 }
-.sous a{
+
+.sous a {
     padding: 10px;
     border-bottom: none;
 }
-.sous a:hover{
+
+.sous a:hover {
     border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
+    background-color: RGBa(200, 200, 200, 0.1);
 }
-.deroulant > a::after{
-    content:" ▼";
+
+.deroulant>a::after {
+    content: " ▼";
     font-size: 12px;
 }
+
 /*/--------------/*/
 
 /*/----Méthode----/*/
-.main_methode{
+.main_methode {
     border: black 3px solid;
     background-color: #474747;
     margin-left: 200px;
     margin-right: 200px;
-    color : white;
-    margin-top:50px;
+    color: white;
+    margin-top: 50px;
 }
 
-.main_methode h1{
+.main_methode h1 {
     font-weight: bold;
     font-size: 50px;
 }
 
-.main_methode p{
-    font-size: 17px;
+.main_methode p {
+    font-size: 18px;
 }
 
-.main_methode ul{
+.main_methode ul {
     list-style: none;
 }
-.main_methode li{
+
+.main_methode li {
     padding: 5px;
 }
 
-.main_methode h4{
+.main_methode h4 {
     text-decoration: underline;
 }
 
-.main_methode table,td,th{
+.main_methode table,
+td,
+th {
     background-color: #333333;
     border: rgb(31, 31, 31) 3px solid;
     text-align: center;
@@ -131,37 +141,47 @@ nav > ul li:hover .sous{
     border-collapse: collapse;
 }
 
-iframe{
+iframe {
     border: solid white 1px;
 }
 
-.main_methode h2{
+.main_methode h2 {
     border: 2px solid black;
     background-color: #465B59;
     border-radius: 0px 30px 0px 30px;
-    padding: 5px;
+    padding: 10px;
 }
 
-.main_methode .lashasse{
+.main_methode .lashasse {
     display: inline;
     font-weight: bold;
 }
+
 /*/---------------/*/
 
 /*/-------Responsive--------/*/
 
 /* Style pour les tablettes/tel */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    nav ul li {
-        width: 50%;
+
+    /*/-----Nav responsive-----/*/
+    nav ul {
+        display: flex;
+        width: 100%;
     }
 
+
+    .sous {
+        width: 100%;
+    }
+
+    /*/---Main Methode Response---/*/
     .main_methode {
         margin-left: 50px;
         margin-right: 50px;
     }
 
-    .main_methode p{
+    .main_methode p {
         margin-left: 50px;
         margin-right: 50px;
         text-align: justify;
@@ -183,7 +203,7 @@ iframe{
         height: 100px;
     }
 
-    .main_methode h4{
+    .main_methode h4 {
         padding-top: 50px;
     }
 }
@@ -199,7 +219,7 @@ iframe{
         margin-right: 200px;
     }
 
-    .main_methode p{
+    .main_methode p {
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -210,16 +230,17 @@ iframe{
         font-size: 25;
     }
 
-    .main_methode table{
+    .main_methode table {
         margin-left: 50px;
         margin-right: 50px;
     }
 }
 
 @media only screen and (min-width: 1300px) {
-    .main_methode p{
+    .main_methode p {
         margin-left: 200px;
         margin-right: 200px;
     }
 }
+
 /*/--------------/*/
