@@ -110,8 +110,6 @@ nav > ul li:hover .sous{
 
 .main_methode p{
     font-size: 17px;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 
 .main_methode ul{
@@ -151,3 +149,68 @@ iframe{
     font-weight: bold;
 }
 /*/---------------/*/
+
+/*/-------Responsive--------/*/
+
+/* Style pour les téléphones */
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        width: 100%;
+    }
+
+    .main_methode {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .main_methode p{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+/* Style pour les tablettes */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    nav ul li {
+        width: 50%;
+    }
+
+    .main_methode {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .main_methode p{
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: justify;
+    }
+
+    .main_methode h2 {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 50px;
+    }
+
+    .main_methode table {
+        width: 80%;
+        font-size: 35px;
+    }
+}
+
+/* Style pour les écrans plus grands (desktop) */
+@media only screen and (min-width: 1025px) {
+    nav ul li {
+        width: 25%;
+    }
+
+    .main_methode {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .main_methode p{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
