@@ -137,8 +137,6 @@ iframe{
 
 .main_methode h2{
     border: 2px solid black;
-    margin-left: 350px;
-    margin-right: 350px;
     background-color: #465B59;
     border-radius: 0px 30px 0px 30px;
     padding: 5px;
@@ -172,12 +170,21 @@ iframe{
     .main_methode h2 {
         width: 80%;
         margin-left: 10%;
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .main_methode table {
         width: 80%;
-        font-size: 35px;
+        font-size: 25px;
+    }
+
+    .talent img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main_methode h4{
+        padding-top: 50px;
     }
 }
 
@@ -208,3 +215,11 @@ iframe{
         margin-right: 50px;
     }
 }
+
+@media only screen and (min-width: 1300px) {
+    .main_methode p{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+/*/--------------/*/
