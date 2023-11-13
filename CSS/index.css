@@ -10,7 +10,7 @@ html {
     width: 100.9%;
     margin-bottom: -20px;
     margin-left: -10px;
-    margin-top: -10px;
+    margin-top: -12px;
 }
 
 main {
@@ -161,10 +161,21 @@ iframe {
 
 /*/-------Responsive--------/*/
 
+@media only screen and (min-width:800px) and (max-width:1024px){
+    .bandeau{
+        margin-bottom: -30.5px;
+    }
+}
+
+
 /* Style pour les tablettes/tel */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
 
     /*/-----Nav responsive-----/*/
+    nav {
+        width: 106%;
+    }
+
     nav ul {
         display: flex;
         width: 100%;
@@ -175,10 +186,14 @@ iframe {
         width: 100%;
     }
 
+    .bandeau{
+        width: 106%;
+    }
+
     /*/---Main Methode Response---/*/
     .main_methode {
         margin-left: 50px;
-        margin-right: 50px;
+        margin-right: 20px;
     }
 
     .main_methode p {
@@ -190,7 +205,7 @@ iframe {
     .main_methode h2 {
         width: 80%;
         margin-left: 10%;
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .main_methode table {
@@ -234,12 +249,22 @@ iframe {
         margin-left: 50px;
         margin-right: 50px;
     }
+
+    .bandeau{
+        margin-bottom: -21px;
+        width: 102%;
+    }
 }
 
 @media only screen and (min-width: 1300px) {
     .main_methode p {
         margin-left: 200px;
         margin-right: 200px;
+    }
+
+    .bandeau{
+        width: 102%;
+        margin-bottom: -23px;
     }
 }
 
