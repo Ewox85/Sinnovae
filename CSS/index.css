@@ -163,17 +163,16 @@ iframe {
 
 @media only screen and (min-width:800px) and (max-width:1024px){
     .bandeau{
-        margin-bottom: -30.5px;
+        margin-bottom: -26.5px;
     }
 }
-
 
 /* Style pour les tablettes/tel */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
 
     /*/-----Nav responsive-----/*/
     nav {
-        width: 111%;
+        width: 99%;
         margin-top: -10px;
     }
 
@@ -188,13 +187,13 @@ iframe {
     }
 
     .bandeau{
-        width: 111%;
+        width: 995px;
     }
 
     /*/---Main Methode Response---/*/
     .main_methode {
         margin-left: 50px;
-        margin-right: 20px;
+        margin-right: 40px;
     }
 
     .main_methode p {
