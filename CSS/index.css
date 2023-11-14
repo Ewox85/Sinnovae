@@ -183,7 +183,7 @@ iframe {
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     /*/-----Nav responsive-----/*/
     nav {
-        width: 103%;
+        width: 1030px;
         margin-top: -10px;
     }
 
@@ -198,7 +198,7 @@ iframe {
     }
 
     .bandeau{
-        width: 995px;
+        width: 1030px;
     }
 
     /*/---Main Methode Response---/*/
