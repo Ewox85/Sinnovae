@@ -131,7 +131,7 @@ nav>ul li:hover .sous {
     text-decoration: underline;
 }
 
-.main img{
+.main .objet img{
     border: solid 1px white
 }
 
