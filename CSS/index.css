@@ -100,8 +100,8 @@ nav>ul li:hover .sous {
 
 /*/--------------/*/
 
-/*/----Méthode----/*/
-.main_methode {
+/*/----Main----/*/
+.main {
     border: black 3px solid;
     background-color: #474747;
     margin-left: 200px;
@@ -110,28 +110,32 @@ nav>ul li:hover .sous {
     margin-top: 50px;
 }
 
-.main_methode h1 {
+.main h1 {
     font-weight: bold;
     font-size: 50px;
 }
 
-.main_methode p {
+.main p {
     font-size: 18px;
 }
 
-.main_methode ul {
+.main ul {
     list-style: none;
 }
 
-.main_methode li {
+.main li {
     padding: 5px;
 }
 
-.main_methode h4 {
+.main h4 {
     text-decoration: underline;
 }
 
-.main_methode table,
+.main img{
+    border: solid 1px white
+}
+
+.main table,
 td,
 th {
     background-color: #333333;
@@ -145,24 +149,24 @@ iframe {
     border: solid white 1px;
 }
 
-.main_methode h2 {
+.main h2 {
     border: 2px solid black;
     background-color: #465B59;
     border-radius: 0px 30px 0px 30px;
     padding: 10px;
 }
 
-.main_methode .lashasse {
+.main .lashasse {
     display: inline;
     font-weight: bold;
 }
 
-.main_methode .Anoter{
+.main .Anoter{
     display: inline;
     font-weight: bold;
 }
 
-.main_methode h5{
+.main h5{
     text-decoration: underline;
 }
 /*/---------------/*/
@@ -198,24 +202,24 @@ iframe {
     }
 
     /*/---Main Methode Response---/*/
-    .main_methode {
+    .main {
         margin-left: 50px;
         margin-right: 40px;
     }
 
-    .main_methode p {
+    .main p {
         margin-left: 50px;
         margin-right: 50px;
         text-align: justify;
     }
 
-    .main_methode h2 {
+    .main h2 {
         width: 80%;
         margin-left: 10%;
         font-size: 35px;
     }
 
-    .main_methode table {
+    .main table {
         width: 80%;
         font-size: 25px;
     }
@@ -225,17 +229,17 @@ iframe {
         height: 100px;
     }
 
-    .main_methode h4 {
+    .main h4 {
         padding-top: 50px;
     }
 
-    .main_methode li{
+    .main li{
         margin-left:20px;
         margin-right: 50px;
         text-align: justify;
     }
 
-    .main_methode .AnoteTexte{
+    .main .AnoteTexte{
         text-align: justify; 
         margin-left: 50px; 
         margin-right: 50px;
@@ -248,23 +252,23 @@ iframe {
         width: 25%;
     }
 
-    .main_methode {
+    .main {
         margin-left: 200px;
         margin-right: 200px;
     }
 
-    .main_methode p {
+    .main p {
         margin-left: 50px;
         margin-right: 50px;
     }
 
-    .main_methode h2 {
+    .main h2 {
         width: 80%;
         margin-left: 10%;
         font-size: 25;
     }
 
-    .main_methode table {
+    .main table {
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -276,7 +280,7 @@ iframe {
 }
 
 @media only screen and (min-width: 1300px) {
-    .main_methode p {
+    .main p {
         margin-left: 200px;
         margin-right: 200px;
     }
