@@ -169,6 +169,7 @@ iframe {
 .main h5{
     text-decoration: underline;
 }
+
 /*/---------------/*/
 
 /*/-------Responsive--------/*/
@@ -201,7 +202,13 @@ iframe {
         width: 1030px;
     }
 
-    /*/---Main Methode Response---/*/
+    /*/---Main Response---/*/
+
+    .main .charme{
+        display: inline;
+        margin-left: 110px;
+    }
+
     .main {
         margin-left: 50px;
         margin-right: 40px;
