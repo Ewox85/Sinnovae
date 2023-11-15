@@ -156,11 +156,6 @@ iframe {
     padding: 10px;
 }
 
-.main .lashasse {
-    display: inline;
-    font-weight: bold;
-}
-
 .main .Anoter{
     display: inline;
     font-weight: bold;
@@ -169,6 +164,14 @@ iframe {
 .main h5{
     text-decoration: underline;
 }
+
+.main .locpension img{
+    border: white 1px solid;
+}
+
+.main .locpension a {
+    display:inline-block;
+  }
 
 /*/---------------/*/
 
