@@ -1,5 +1,3 @@
-var tabSandwich = document.getElementById("sandwich");
-
 function myFunction() {
     var tabSandwich = document.getElementById("sandwich");
     var fleche = document.getElementById("fleche");
