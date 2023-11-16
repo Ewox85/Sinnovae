@@ -160,11 +160,11 @@ iframe {
     text-decoration: underline;
 }
 
-.main .locpension img{
+.main .localisation img{
     border: white 1px solid;
 }
 
-.main .locpension a {
+.main .localisation a {
     display:inline-block;
     padding: 10px;
 }
@@ -202,6 +202,11 @@ iframe {
     }
 
     /*/---Main Response---/*/
+
+    .main .tabTauxPeche{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
     .main .charme{
         display: inline;
