@@ -4,7 +4,7 @@
 <!--Head-->
 <head>
     <meta charset="UTF-8" />
-    <title>Sinnovae | Méthode SOS</title>
+    <title>Sinnovae | Méthode PokeRadar</title>
     <link rel="stylesheet" type="text/css" href="../CSS/index.css">
     <link rel="shortcut icon" href="../Images/logo en haut à gauche.png" type="image/x-icon" />
 </head>
@@ -43,7 +43,7 @@
     <!--Main qui contient toute les infos sur la méthode-->
     <main class="main">
         <div><br/>
-            <h1>Méthode SOS</h1>
+            <h1>Méthode PokeRadar</h1>
 
             <!--Explication de ce qu'est la méthode-->
             <article>
