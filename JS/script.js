@@ -1,11 +1,11 @@
 function myFunction() {
-    var tabSandwich = document.getElementById("sandwich");
+    var tableReduit = document.getElementById("tableReduit");
     var fleche = document.getElementById("fleche");
-    if (tabSandwich.style.display === "none") {
-        tabSandwich.style.display = "";
+    if (tableReduit.style.display === "none") {
+        tableReduit.style.display = "";
         fleche.innerHTML = "▼";
     } else {
-        tabSandwich.style.display = "none";
+        tableReduit.style.display = "none";
         fleche.innerHTML = "▲";
     }
 }
