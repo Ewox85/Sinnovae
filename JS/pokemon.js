@@ -888,7 +888,7 @@ const pokemonList = [
         "numero": "224",
     },
     {
-        "name": "cado",
+        "name": "cadoizo",
         "numero": "225",
     },
     {
@@ -994,5 +994,485 @@ const pokemonList = [
     {
         "name": "celebi",
         "numero": "251",
+    },
+    {
+        "name": "arcko",
+        "numero": "252",
+    },
+    {
+        "name": "massko",
+        "numero": "253",
+    },
+    {
+        "name": "jungko",
+        "numero": "254",
+    },
+    {
+        "name": "poussifeu",
+        "numero": "255",
+    },
+    {
+        "name": "galifeu",
+        "numero": "256",
+    },
+    {
+        "name": "brasegali",
+        "numero": "257",
+    },
+    {
+        "name": "gobou",
+        "numero": "258",
+    },
+    {
+        "name": "flobio",
+        "numero": "259",
+    },
+    {
+        "name": "laggron",
+        "numero": "260",
+    },
+    {
+        "name": "medhyena",
+        "numero": "261",
+    },
+    {
+        "name": "grahyena",
+        "numero": "262",
+    },
+    {
+        "name": "goelise",
+        "numero": "263",
+    },
+    {
+        "name": "bekipan",
+        "numero": "264",
+    },
+    {
+        "name": "tarsal",
+        "numero": "265",
+    },
+    {
+        "name": "kirlia",
+        "numero": "266",
+    },
+    {
+        "name": "gardevoir",
+        "numero": "267",
+    },
+    {
+        "name": "arakdo",
+        "numero": "268",
+    },
+    {
+        "name": "maskadra",
+        "numero": "269",
+    },
+    {
+        "name": "balignon",
+        "numero": "270",
+    },
+    {
+        "name": "chapignon",
+        "numero": "271",
+    },
+    {
+        "name": "parecool",
+        "numero": "272",
+    },
+    {
+        "name": "vigoroth",
+        "numero": "273",
+    },
+    {
+        "name": "monaflemit",
+        "numero": "274",
+    },
+    {
+        "name": "ningale",
+        "numero": "275",
+    },
+    {
+        "name": "ninjask",
+        "numero": "276",
+    },
+    {
+        "name": "munja",
+        "numero": "277",
+    },
+    {
+        "name": "chuchmur",
+        "numero": "278",
+    },
+    {
+        "name": "ramboum",
+        "numero": "279",
+    },
+    {
+        "name": "brouhabam",
+        "numero": "280",
+    },
+    {
+        "name": "makuhita",
+        "numero": "281",
+    },
+    {
+        "name": "hariyama",
+        "numero": "282",
+    },
+    {
+        "name": "azurill",
+        "numero": "283",
+    },
+    {
+        "name": "tarinor",
+        "numero": "284",
+    },
+    {
+        "name": "skitty",
+        "numero": "285",
+    },
+    {
+        "name": "delcatty",
+        "numero": "286",
+    },
+    {
+        "name": "tenefix",
+        "numero": "287",
+    },
+    {
+        "name": "mysdibule",
+        "numero": "288",
+    },
+    {
+        "name": "galekid",
+        "numero": "289",
+    },
+    {
+        "name": "galegon",
+        "numero": "290",
+    },
+    {
+        "name": "galeking",
+        "numero": "291",
+    },
+    {
+        "name": "meditikka",
+        "numero": "292",
+    },
+    {
+        "name": "charmina",
+        "numero": "293",
+    },
+    {
+        "name": "dynavolt",
+        "numero": "294",
+    },
+    {
+        "name": "elecsprint",
+        "numero": "295",
+    },
+    {
+        "name": "posipi",
+        "numero": "296",
+    },
+    {
+        "name": "negapi",
+        "numero": "297",
+    },
+    {
+        "name": "muciole",
+        "numero": "298",
+    },
+    {
+        "name": "lumivole",
+        "numero": "299",
+    },
+    {
+        "name": "roselia",
+        "numero": "300",
+    },
+    {
+        "name": "gloupti",
+        "numero": "301",
+    },
+    {
+        "name": "avaltout",
+        "numero": "302",
+    },
+    {
+        "name": "carvanha",
+        "numero": "303",
+    },
+    {
+        "name": "sharpedo",
+        "numero": "304",
+    },
+    {
+        "name": "wailmer",
+        "numero": "320",
+    },
+    {
+        "name": "wailord",
+        "numero": "321",
+    },
+    {
+        "name": "chamallot",
+        "numero": "322",
+    },
+    {
+        "name": "camerupt",
+        "numero": "323",
+    },
+    {
+        "name": "chartor",
+        "numero": "324",
+    },
+    {
+        "name": "spoink",
+        "numero": "325",
+    },
+    {
+        "name": "groret",
+        "numero": "326",
+    },
+    {
+        "name": "spinda",
+        "numero": "327",
+    },
+    {
+        "name": "kraknoix",
+        "numero": "328",
+    },
+    {
+        "name": "vibraninf",
+        "numero": "329",
+    },
+    {
+        "name": "libegon",
+        "numero": "330",
+    },
+    {
+        "name": "cacnea",
+        "numero": "331",
+    },
+    {
+        "name": "cacturne",
+        "numero": "332",
+    },
+    {
+        "name": "tylton",
+        "numero": "333",
+    },
+    {
+        "name": "altaria",
+        "numero": "334",
+    },
+    {
+        "name": "mangriff",
+        "numero": "335",
+    },
+    {
+        "name": "seviper",
+        "numero": "336",
+    },
+    {
+        "name": "seleroc",
+        "numero": "337",
+    },
+    {
+        "name": "solaroc",
+        "numero": "338",
+    },
+    {
+        "name": "barloche",
+        "numero": "339",
+    },
+    {
+        "name": "barbicha",
+        "numero": "340",
+    },
+    {
+        "name": "ecrapince",
+        "numero": "341",
+    },
+    {
+        "name": "colhomard",
+        "numero": "342",
+    },
+    {
+        "name": "balbuto",
+        "numero": "343",
+    },
+    {
+        "name": "kaorine",
+        "numero": "344",
+    },
+    {
+        "name": "lilia",
+        "numero": "345",
+    },
+    {
+        "name": "vacilys",
+        "numero": "346",
+    },
+    {
+        "name": "anorith",
+        "numero": "347",
+    },
+    {
+        "name": "armaldo",
+        "numero": "348",
+    },
+    {
+        "name": "barpau",
+        "numero": "349",
+    },
+    {
+        "name": "milobellus",
+        "numero": "350",
+    },
+    {
+        "name": "morpheo",
+        "numero": "351",
+    },
+    {
+        "name": "kecleon",
+        "numero": "352",
+    },
+    {
+        "name": "polichombr",
+        "numero": "353",
+    },
+    {
+        "name": "branette",
+        "numero": "354",
+    },
+    {
+        "name": "skelenox",
+        "numero": "355",
+    },
+    {
+        "name": "teraclope",
+        "numero": "356",
+    },
+    {
+        "name": "tropius",
+        "numero": "357",
+    },
+    {
+        "name": "eoko",
+        "numero": "358",
+    },
+    {
+        "name": "absol",
+        "numero": "359",
+    },
+    {
+        "name": "okeoke",
+        "numero": "360",
+    },
+    {
+        "name": "stalgamin",
+        "numero": "361",
+    },
+    {
+        "name": "oniglali",
+        "numero": "362",
+    },
+    {
+        "name": "obalie",
+        "numero": "363",
+    },
+    {
+        "name": "phogleur",
+        "numero": "364",
+    },
+    {
+        "name": "kaimorse",
+        "numero": "365",
+    },
+    {
+        "name": "coquiperl",
+        "numero": "366",
+    },
+    {
+        "name": "serpang",
+        "numero": "367",
+    },
+    {
+        "name": "rosabyss",
+        "numero": "368",
+    },
+    {
+        "name": "relicanth",
+        "numero": "369",
+    },
+    {
+        "name": "lovdisc",
+        "numero": "370",
+    },
+    {
+        "name": "draby",
+        "numero": "371",
+    },
+    {
+        "name": "drackhaus",
+        "numero": "372",
+    },
+    {
+        "name": "drattak",
+        "numero": "373",
+    },
+    {
+        "name": "terhal",
+        "numero": "374",
+    },
+    {
+        "name": "metang",
+        "numero": "375",
+    },
+    {
+        "name": "metalosse",
+        "numero": "376",
+    },
+    {
+        "name": "regirock",
+        "numero": "377",
+    },
+    {
+        "name": "regice",
+        "numero": "378",
+    },
+    {
+        "name": "registeel",
+        "numero": "379",
+    },
+    {
+        "name": "latias",
+        "numero": "380",
+    },
+    {
+        "name": "latios",
+        "numero": "381",
+    },
+    {
+        "name": "kyogre",
+        "numero": "382",
+    },
+    {
+        "name": "groudon",
+        "numero": "383",
+    },
+    {
+        "name": "rayquaza",
+        "numero": "384",
+    },
+    {
+        "name": "jirachi",
+        "numero": "385",
+    },
+    {
+        "name": "deoxys",
+        "numero": "386",
     },
 ];
