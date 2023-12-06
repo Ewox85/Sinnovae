@@ -18,6 +18,20 @@ main {
     text-align: center;
 }
 
+.bouton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bouton:hover{
+    background-color: #45a049;
+}
+
 /*/----NAV----/*/
 
 nav {
@@ -131,7 +145,7 @@ nav>ul li:hover .sous {
     text-decoration: underline;
 }
 
-.main .objet img{
+.main .objet img {
     border: solid 1px white
 }
 
@@ -156,16 +170,16 @@ iframe {
     padding: 10px;
 }
 
-.main h5{
+.main h5 {
     text-decoration: underline;
 }
 
-.main .localisation img{
+.main .localisation img {
     border: white 1px solid;
 }
 
 .main .localisation a {
-    display:inline-block;
+    display: inline-block;
     padding: 10px;
 }
 
@@ -173,14 +187,15 @@ iframe {
 
 /*/-------Responsive--------/*/
 
-@media only screen and (min-width:800px) and (max-width:1024px){
-    .bandeau{
+@media only screen and (min-width:800px) and (max-width:1024px) {
+    .bandeau {
         margin-bottom: -26.5px;
     }
 }
 
 /* Style pour les tablettes/tel */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+
     /*/-----Nav responsive-----/*/
     nav {
         width: 1030px;
@@ -197,18 +212,18 @@ iframe {
         width: 100%;
     }
 
-    .bandeau{
+    .bandeau {
         width: 1030px;
     }
 
     /*/---Main Response---/*/
 
-    .main .tabTauxPeche{
+    .main .tabTauxPeche {
         margin-left: 20px;
         margin-right: 20px;
     }
 
-    .main .charme{
+    .main .charme {
         display: inline;
         margin-left: 110px;
     }
@@ -244,15 +259,15 @@ iframe {
         padding-top: 50px;
     }
 
-    .main li{
-        margin-left:20px;
+    .main li {
+        margin-left: 20px;
         margin-right: 50px;
         text-align: justify;
     }
 
-    .main .AnoteTexte{
-        text-align: justify; 
-        margin-left: 50px; 
+    .main .AnoteTexte {
+        text-align: justify;
+        margin-left: 50px;
         margin-right: 50px;
     }
 }
@@ -284,7 +299,7 @@ iframe {
         margin-right: 50px;
     }
 
-    .bandeau{
+    .bandeau {
         margin-bottom: -21px;
         width: 102%;
     }
@@ -296,7 +311,7 @@ iframe {
         margin-right: 200px;
     }
 
-    .bandeau{
+    .bandeau {
         width: 102%;
         margin-bottom: -23px;
     }
