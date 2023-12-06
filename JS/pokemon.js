@@ -112,7 +112,7 @@ const pokemonList = [
         "numero": "028",
     },
     {
-        "name": "nidoran♀",
+        "name": "nidoran-f",
         "numero": "029",
     },
     {
@@ -124,7 +124,7 @@ const pokemonList = [
         "numero": "031",
     },
     {
-        "name": "nidoran♂",
+        "name": "nidoran-m",
         "numero": "032",
     },
     {
@@ -220,7 +220,7 @@ const pokemonList = [
         "numero": "055",
     },
     {
-        "name": "férosinge",
+        "name": "ferosinge",
         "numero": "056",
     },
     {
@@ -240,7 +240,7 @@ const pokemonList = [
         "numero": "060",
     },
     {
-        "name": "têtarte",
+        "name": "tetarte",
         "numero": "061",
     },
     {
@@ -444,7 +444,7 @@ const pokemonList = [
         "numero": "111",
     },
     {
-        "name": "rhinoféros",
+        "name": "rhinoferos",
         "numero": "112",
     },
     {
@@ -476,7 +476,7 @@ const pokemonList = [
         "numero": "119",
     },
     {
-        "name": "m. mime",
+        "name": "mmime",
         "numero": "122",
     },
     {
@@ -508,7 +508,7 @@ const pokemonList = [
         "numero": "129",
     },
     {
-        "name": "léviator",
+        "name": "leviator",
         "numero": "130",
     },
     {
@@ -516,7 +516,7 @@ const pokemonList = [
         "numero": "131",
     },
     {
-        "name": "métamorph",
+        "name": "metamorph",
         "numero": "132",
     },
     {
@@ -594,5 +594,405 @@ const pokemonList = [
     {
         "name": "mew",
         "numero": "151",
+    },
+    {
+        "name": "germignon",
+        "numero": "152",
+    },
+    {
+        "name": "macronium",
+        "numero": "153",
+    },
+    {
+        "name": "meganium",
+        "numero": "154",
+    },
+    {
+        "name": "hericendre",
+        "numero": "155",
+    },
+    {
+        "name": "feurisson",
+        "numero": "156",
+    },
+    {
+        "name": "typhlosion",
+        "numero": "157",
+    },
+    {
+        "name": "kaiminus",
+        "numero": "158",
+    },
+    {
+        "name": "crocrodil",
+        "numero": "159",
+    },
+    {
+        "name": "aligatueur",
+        "numero": "160",
+    },
+    {
+        "name": "fouinette",
+        "numero": "161",
+    },
+    {
+        "name": "fouinar",
+        "numero": "162",
+    },
+    {
+        "name": "hoothoot",
+        "numero": "163",
+    },
+    {
+        "name": "noctowl",
+        "numero": "164",
+    },
+    {
+        "name": "coxy",
+        "numero": "165",
+    },
+    {
+        "name": "coxyclaque",
+        "numero": "166",
+    },
+    {
+        "name": "mimigal",
+        "numero": "167",
+    },
+    {
+        "name": "migalos",
+        "numero": "168",
+    },
+    {
+        "name": "nostenfer",
+        "numero": "169",
+    },
+    {
+        "name": "loupio",
+        "numero": "170",
+    },
+    {
+        "name": "lanturn",
+        "numero": "171",
+    },
+    {
+        "name": "pichu",
+        "numero": "172",
+    },
+    {
+        "name": "melo",
+        "numero": "173",
+    },
+    {
+        "name": "toudoudou",
+        "numero": "174",
+    },
+    {
+        "name": "togepi",
+        "numero": "175",
+    },
+    {
+        "name": "togetic",
+        "numero": "176",
+    },
+    {
+        "name": "natu",
+        "numero": "177",
+    },
+    {
+        "name": "xatu",
+        "numero": "178",
+    },
+    {
+        "name": "wattouat",
+        "numero": "179",
+    },
+    {
+        "name": "lainergie",
+        "numero": "180",
+    },
+    {
+        "name": "pharamp",
+        "numero": "181",
+    },
+    {
+        "name": "joliflor",
+        "numero": "182",
+    },
+    {
+        "name": "marill",
+        "numero": "183",
+    },
+    {
+        "name": "azumarill",
+        "numero": "184",
+    },
+    {
+        "name": "simularbre",
+        "numero": "185",
+    },
+    {
+        "name": "tarpaud",
+        "numero": "186",
+    },
+    {
+        "name": "granivol",
+        "numero": "187",
+    },
+    {
+        "name": "floravol",
+        "numero": "188",
+    },
+    {
+        "name": "cotovol",
+        "numero": "189",
+    },
+    {
+        "name": "capumain",
+        "numero": "190",
+    },
+    {
+        "name": "tournegrin",
+        "numero": "191",
+    },
+    {
+        "name": "heliatronc",
+        "numero": "192",
+    },
+    {
+        "name": "yanma",
+        "numero": "193",
+    },
+    {
+        "name": "axoloto",
+        "numero": "194",
+    },
+    {
+        "name": "maraiste",
+        "numero": "195",
+    },
+    {
+        "name": "mentali",
+        "numero": "196",
+    },
+    {
+        "name": "noctali",
+        "numero": "197",
+    },
+    {
+        "name": "cornebre",
+        "numero": "198",
+    },
+    {
+        "name": "roigada",
+        "numero": "199",
+    },
+    {
+        "name": "feuforeve",
+        "numero": "200",
+    },
+    {
+        "name": "zarbi",
+        "numero": "201",
+    },
+    {
+        "name": "qulbutoke",
+        "numero": "202",
+    },
+    {
+        "name": "girafarig",
+        "numero": "203",
+    },
+    {
+        "name": "pomdepik",
+        "numero": "204",
+    },
+    {
+        "name": "foretress",
+        "numero": "205",
+    },
+    {
+        "name": "insolourdo",
+        "numero": "206",
+    },
+    {
+        "name": "scorplane",
+        "numero": "207",
+    },
+    {
+        "name": "steelix",
+        "numero": "208",
+    },
+    {
+        "name": "snubbull",
+        "numero": "209",
+    },
+    {
+        "name": "granbull",
+        "numero": "210",
+    },
+    {
+        "name": "qwilfish",
+        "numero": "211",
+    },
+    {
+        "name": "cizayox",
+        "numero": "212",
+    },
+    {
+        "name": "caratroc",
+        "numero": "213",
+    },
+    {
+        "name": "scarhino",
+        "numero": "214",
+    },
+    {
+        "name": "farfuret",
+        "numero": "215",
+    },
+    {
+        "name": "teddiursa",
+        "numero": "216",
+    },
+    {
+        "name": "ursaring",
+        "numero": "217",
+    },
+    {
+        "name": "limagma",
+        "numero": "218",
+    },
+    {
+        "name": "volcaropod",
+        "numero": "219",
+    },
+    {
+        "name": "marcacrin",
+        "numero": "220",
+    },
+    {
+        "name": "cochignon",
+        "numero": "221",
+    },
+    {
+        "name": "corayon",
+        "numero": "222",
+    },
+    {
+        "name": "remoraid",
+        "numero": "223",
+    },
+    {
+        "name": "octillery",
+        "numero": "224",
+    },
+    {
+        "name": "cado",
+        "numero": "225",
+    },
+    {
+        "name": "demanta",
+        "numero": "226",
+    },
+    {
+        "name": "airmure",
+        "numero": "227",
+    },
+    {
+        "name": "malosse",
+        "numero": "228",
+    },
+    {
+        "name": "demolosse",
+        "numero": "229",
+    },
+    {
+        "name": "hyporoi",
+        "numero": "230",
+    },
+    {
+        "name": "phanpy",
+        "numero": "231",
+    },
+    {
+        "name": "donphan",
+        "numero": "232",
+    },
+    {
+        "name": "porygon2",
+        "numero": "233",
+    },
+    {
+        "name": "cerfrousse",
+        "numero": "234",
+    },
+    {
+        "name": "queulorior",
+        "numero": "235",
+    },
+    {
+        "name": "debugant",
+        "numero": "236",
+    },
+    {
+        "name": "kapoera",
+        "numero": "237",
+    },
+    {
+        "name": "lippouti",
+        "numero": "238",
+    },
+    {
+        "name": "elekid",
+        "numero": "239",
+    },
+    {
+        "name": "magby",
+        "numero": "240",
+    },
+    {
+        "name": "ecremeuh",
+        "numero": "241",
+    },
+    {
+        "name": "leuphorie",
+        "numero": "242",
+    },
+    {
+        "name": "raikou",
+        "numero": "243",
+    },
+    {
+        "name": "entei",
+        "numero": "244",
+    },
+    {
+        "name": "suicune",
+        "numero": "245",
+    },
+    {
+        "name": "embrylex",
+        "numero": "246",
+    },
+    {
+        "name": "ymphect",
+        "numero": "247",
+    },
+    {
+        "name": "tyranocif",
+        "numero": "248",
+    },
+    {
+        "name": "lugia",
+        "numero": "249",
+    },
+    {
+        "name": "ho-oh",
+        "numero": "250",
+    },
+    {
+        "name": "celebi",
+        "numero": "251",
     },
 ];
