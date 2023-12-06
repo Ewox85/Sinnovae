@@ -1,14 +1,14 @@
 const pokemonList = [
     {
-		"name": "salameche",
-        "numero": "004",
+		"name": "bulbizarre",
+        "numero": "001",
 	},
     {
-		"name": "reptincel",
-        "numero": "005",
+		"name": "herbizarre",
+        "numero": "002",
 	},
     {
-		"name": "dracaufeu",
-        "numero": "006",
+		"name": "florizarre",
+        "numero": "003",
 	},
 ]
