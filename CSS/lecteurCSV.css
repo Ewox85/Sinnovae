@@ -1,0 +1,246 @@
+
+/*/----Page Lecteur CSV----/*/
+
+#csv-file {
+    margin-bottom: 20px;
+}
+
+#pokemon-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: none;
+}
+
+table {
+    border: 2px solid black; /* Ajouter une bordure plus épaisse pour le tableau */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333333;
+}
+
+#instruction-message {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Ajouter un style pour les lignes impaires du tableau */
+tr:nth-child(odd) {
+    background-color: #333333;
+}
+
+#reload-asc-button, #reload-desc-button {
+    background-color: #008CBA;
+}
+
+#reload-asc-button:hover, #reload-desc-button:hover {
+    background-color: #00698C;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px 10px;
+}
+
+tr:hover {
+    background-color: #4b4b4b;
+}
+
+.buttonCSV{
+    text-align: center;
+}
+
+#pokemon-table{
+    background-color: #333333;
+}
+
+/*/------------------------/*/
+
+/*/----Page en elle meme----/*/
+
+html {
+    margin: auto;
+    height: 100%;
+    background-color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.bandeau {
+    width: 100.9%;
+    margin-bottom: -20px;
+    margin-left: -10px;
+    margin-top: -12px;
+}
+
+/*/----NAV----/*/
+
+nav {
+    position: sticky;
+    top: 0px;
+    width: 100.9%;
+    margin-top: -4px;
+    margin-left: -10px;
+    background-color: #465B59;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: #465B59;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav a {
+    margin-left: -40px;
+}
+
+nav>ul li:hover .sous {
+    display: block;
+}
+
+.sous li {
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous a:hover {
+    border-bottom: none;
+    background-color: RGBa(200, 200, 200, 0.1);
+}
+
+.deroulant>a::after {
+    content: " ▼";
+    font-size: 12px;
+}
+
+/*/--------------/*/
+
+/*/----Main----/*/
+.main {
+    border: black 3px solid;
+    background-color: #474747;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    margin-top: 50px;
+}
+
+.main h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.main p {
+    font-size: 18px;
+}
+
+.main ul {
+    list-style: none;
+}
+
+.main li {
+    padding: 5px;
+}
+
+.main h4 {
+    text-decoration: underline;
+}
+
+.main .objet img {
+    border: solid 1px white
+}
+
+.main h1{
+    text-align: center;
+}
+
+iframe {
+    border: solid white 1px;
+}
+
+.main h2 {
+    border: 2px solid black;
+    background-color: #465B59;
+    border-radius: 0px 30px 0px 30px;
+    padding: 10px;
+}
+
+.main h5 {
+    text-decoration: underline;
+}
+
+.main .localisation img {
+    border: white 1px solid;
+}
+
+.main .localisation a {
+    display: inline-block;
+    padding: 10px;
+}
+
+/*/---------------/*/
+
+/*/--------------------/*/

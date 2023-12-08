@@ -2,10 +2,11 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>Sinnovae | Random Shasse</title>
-    <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../Images/logo en haut à gauche.png" type="image/x-icon" />
+    <title>Sinnovae | Lecteur ShinyDex</title>
+    <link rel="stylesheet" href="../CSS/lecteurCSV.css">
 </head>
 <a href="../index.html"><img class="bandeau" src="../Images/bandeau/bandeauDLC1.png"></a>
 
@@ -40,31 +41,23 @@
         </li>
     </ul>
 </nav>
-</head>
-
-<script src="../JS/pokemon.js"></script>
-<script src="../JS/script.js"></script>
 
 <body>
     <main class="main">
-        <h1>Random Shasse</h1>
-        <div>
-            <article>
-                Obtenez de manière aléatoire un Pokémon à shasser !
-            </article><br />
-            <button class="bouton" onclick="choisirPokemonAleatoire()">Choisir Pokémon aléatoire</button>
-            <p id="pokemonName"></p>
-            <img id="pokemonImage" src="../Images/logo.png" alt="Pokémon Shiny"><br /><br />
+        <h1>Lecteur de fichier CSV shiny</h1>
+        <div class="buttonCSV">
+            <input type="file" id="csv-file" accept=".csv">
+            <h4 id="instruction-message">Veuillez charger un fichier CSV.</h4>
+            <button id="reload-asc-button">Rencontre croissant</button>
+            <button id="reload-desc-button">Rencontre décroissant</button>
         </div>
+        <table id="pokemon-table">
+        </table>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+        <script src="../JS/lecteurCSV.js"></script>
     </main>
-    <br />
-    <center>
-        <aside>
-            <a href="https://discord.gg/JFPrVQV"><img src="../Images/1200px-Discord.svg.png" WIDTH=100 border="0">
-                <a href=https://www.youtube.com/channel/UCfYXuvKn8WUVhSS4Os8AJtg><img src="../Images/logo youtube.png"
-                        WIDTH=100 border="0">
-        </aside>
-    </center>
 </body>
 
 </html>
