@@ -6,16 +6,17 @@ html {
     overflow-x: hidden;
 }
 
-.bandeau {
-    width: 100.9%;
-    margin-bottom: -20px;
-    margin-left: -10px;
-    margin-top: -12px;
+body{
+    margin:0;
 }
 
-main {
-    color: white;
-    text-align: center;
+.copyright{
+    font-size: 12px;
+}
+
+.bandeau {
+    width: 100.9%;
+    margin-left: -10px;
 }
 
 .bouton {
@@ -32,14 +33,46 @@ main {
     background-color: #45a049;
 }
 
+#pokemonImage{
+    border: solid black 3px;
+    padding: 10px;
+    background-color: #333333;
+}
+
+footer {
+    background-color: #465B59;
+    color: #fff;
+    padding: 20px 0;
+    width: auto;
+    margin-top: auto;
+}
+
+.footer-container a {
+    text-decoration:none;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 30%;
+}
 /*/----NAV----/*/
+
+.navbar{
+    margin-bottom: 0;
+    margin-top: -3px;
+}
 
 nav {
     position: sticky;
     top: 0px;
     width: 100.9%;
-    margin-top: -4px;
-    margin-left: -10px;
     background-color: #465B59;
     font-size: 20px;
 }
@@ -120,8 +153,10 @@ nav>ul li:hover .sous {
     background-color: #474747;
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     color: white;
-    margin-top: 50px;
+    text-align: center;
 }
 
 .main h1 {
@@ -199,7 +234,6 @@ iframe {
     /*/-----Nav responsive-----/*/
     nav {
         width: 1030px;
-        margin-top: -10px;
     }
 
     nav ul {
@@ -300,7 +334,6 @@ iframe {
     }
 
     .bandeau {
-        margin-bottom: -21px;
         width: 102%;
     }
 }
@@ -313,7 +346,6 @@ iframe {
 
     .bandeau {
         width: 102%;
-        margin-bottom: -23px;
     }
 }
 
